@@ -1,0 +1,43 @@
+{
+  "$GMObject":"",
+  "%Name":"obj_skill_par_config",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
+  "managed":true,
+  "name":"obj_skill_par_config",
+  "overriddenProperties":[],
+  "parent":{
+    "name":"Skill Cards",
+    "path":"folders/Objects/Battle Interfaces/Skill Cards.yy",
+  },
+  "parentObjectId":{
+    "name":"obj_skill_interface",
+    "path":"objects/obj_skill_interface/obj_skill_interface.yy",
+  },
+  "persistent":false,
+  "physicsAngularDamping":0.1,
+  "physicsDensity":0.5,
+  "physicsFriction":0.2,
+  "physicsGroup":1,
+  "physicsKinematic":false,
+  "physicsLinearDamping":0.1,
+  "physicsObject":false,
+  "physicsRestitution":0.1,
+  "physicsSensor":false,
+  "physicsShape":1,
+  "physicsShapePoints":[],
+  "physicsStartAwake":true,
+  "properties":[
+    {"$GMObjectProperty":"v1","%Name":"target_required","filters":[],"listItems":[],"multiselect":false,"name":"target_required","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"true","varType":3,},
+  ],
+  "resourceType":"GMObject",
+  "resourceVersion":"2.0",
+  "solid":false,
+  "spriteId":{
+    "name":"spr_skill_default",
+    "path":"sprites/spr_skill_default/spr_skill_default.yy",
+  },
+  "spriteMaskId":null,
+  "visible":true,
+}

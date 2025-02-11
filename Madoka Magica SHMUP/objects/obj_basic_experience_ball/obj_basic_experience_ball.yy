@@ -1,0 +1,43 @@
+{
+  "$GMObject":"",
+  "%Name":"obj_basic_experience_ball",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
+  "managed":true,
+  "name":"obj_basic_experience_ball",
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_par_experience_ball","path":"objects/obj_par_experience_ball/obj_par_experience_ball.yy",},"propertyId":{"name":"_experience_value","path":"objects/obj_par_experience_ball/obj_par_experience_ball.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"5",},
+  ],
+  "parent":{
+    "name":"Dropped Items",
+    "path":"folders/Objects/Monsters & Bosses/Dropped Items.yy",
+  },
+  "parentObjectId":{
+    "name":"obj_par_experience_ball",
+    "path":"objects/obj_par_experience_ball/obj_par_experience_ball.yy",
+  },
+  "persistent":false,
+  "physicsAngularDamping":0.1,
+  "physicsDensity":0.5,
+  "physicsFriction":0.2,
+  "physicsGroup":1,
+  "physicsKinematic":false,
+  "physicsLinearDamping":0.1,
+  "physicsObject":false,
+  "physicsRestitution":0.1,
+  "physicsSensor":false,
+  "physicsShape":1,
+  "physicsShapePoints":[],
+  "physicsStartAwake":true,
+  "properties":[],
+  "resourceType":"GMObject",
+  "resourceVersion":"2.0",
+  "solid":false,
+  "spriteId":{
+    "name":"spr_experience_icon",
+    "path":"sprites/spr_experience_icon/spr_experience_icon.yy",
+  },
+  "spriteMaskId":null,
+  "visible":true,
+}

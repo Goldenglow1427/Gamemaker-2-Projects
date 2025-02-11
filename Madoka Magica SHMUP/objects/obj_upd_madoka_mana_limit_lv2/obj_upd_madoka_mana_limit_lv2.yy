@@ -1,0 +1,43 @@
+{
+  "$GMObject":"",
+  "%Name":"obj_upd_madoka_mana_limit_lv2",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
+  "managed":true,
+  "name":"obj_upd_madoka_mana_limit_lv2",
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_par_upg_selection","path":"objects/obj_par_upg_selection/obj_par_upg_selection.yy",},"propertyId":{"name":"upgrade_index","path":"objects/obj_par_upg_selection/obj_par_upg_selection.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"7",},
+  ],
+  "parent":{
+    "name":"Basic Upgrades",
+    "path":"folders/Objects/Upgrade Interface/Madoka Kaname/Basic Upgrades.yy",
+  },
+  "parentObjectId":{
+    "name":"obj_par_upg_selection",
+    "path":"objects/obj_par_upg_selection/obj_par_upg_selection.yy",
+  },
+  "persistent":false,
+  "physicsAngularDamping":0.1,
+  "physicsDensity":0.5,
+  "physicsFriction":0.2,
+  "physicsGroup":1,
+  "physicsKinematic":false,
+  "physicsLinearDamping":0.1,
+  "physicsObject":false,
+  "physicsRestitution":0.1,
+  "physicsSensor":false,
+  "physicsShape":1,
+  "physicsShapePoints":[],
+  "physicsStartAwake":true,
+  "properties":[],
+  "resourceType":"GMObject",
+  "resourceVersion":"2.0",
+  "solid":false,
+  "spriteId":{
+    "name":"spr_upd_madoka_mana_limit_lv2",
+    "path":"sprites/spr_upd_madoka_mana_limit_lv2/spr_upd_madoka_mana_limit_lv2.yy",
+  },
+  "spriteMaskId":null,
+  "visible":true,
+}

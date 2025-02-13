@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description Trigger combined skills.
 // You can write your code in this editor
 
 if self.card_config.check_valid(card_target) == true

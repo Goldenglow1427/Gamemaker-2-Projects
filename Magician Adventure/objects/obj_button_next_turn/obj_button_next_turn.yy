@@ -1,20 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_monster_shield_zombie",
+  "%Name":"obj_button_next_turn",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_monster_shield_zombie",
+  "name":"obj_button_next_turn",
   "overriddenProperties":[],
   "parent":{
-    "name":"Base Monsters",
-    "path":"folders/Objects/Battle Interfaces/Monsters/Base Monsters.yy",
+    "name":"Buttons",
+    "path":"folders/Objects/Battle Interfaces/Buttons.yy",
   },
-  "parentObjectId":{
-    "name":"obj_par_monsters",
-    "path":"objects/obj_par_monsters/obj_par_monsters.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -33,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_monster_shield_zombie",
-    "path":"sprites/spr_monster_shield_zombie/spr_monster_shield_zombie.yy",
+    "name":"spr_button_battle_next_turn",
+    "path":"sprites/spr_button_battle_next_turn/spr_button_battle_next_turn.yy",
   },
   "spriteMaskId":null,
   "visible":true,

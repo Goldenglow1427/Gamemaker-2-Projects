@@ -14,6 +14,9 @@ if self.card_config.check_valid(card_target) == true
 self.card_effect.selected = false
 self.card_config.selected = false
 
+if self.card_target != pointer_null
+	self.card_target.selected = false
+
 self.card_effect = pointer_null
 self.card_target = pointer_null
 self.card_config = pointer_null

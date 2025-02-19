@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 // Check death.
-if self.hitpoint < 0
+if self.hitpoint <= 0
 	alarm[1] = 1
 
 if self.selected

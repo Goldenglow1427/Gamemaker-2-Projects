@@ -6,7 +6,9 @@
   ],
   "managed":true,
   "name":"obj_monster_shield_zombie",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_par_monsters","path":"objects/obj_par_monsters/obj_par_monsters.yy",},"propertyId":{"name":"max_hitpoint","path":"objects/obj_par_monsters/obj_par_monsters.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"30",},
+  ],
   "parent":{
     "name":"Base Monsters",
     "path":"folders/Objects/Battle Interfaces/Monsters/Base Monsters.yy",

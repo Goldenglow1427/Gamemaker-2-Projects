@@ -1,7 +1,4 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if is_active == false
-	return
-
-obj_battle_control.alarm[1] = 1
+is_active = false

@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_button_next_turn",
+  "%Name":"obj_button_confirm_cast",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_button_next_turn",
+  "name":"obj_button_confirm_cast",
   "overriddenProperties":[],
   "parent":{
     "name":"Buttons",
@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_button_battle_next_turn",
-    "path":"sprites/spr_button_battle_next_turn/spr_button_battle_next_turn.yy",
+    "name":"spr_button_battle_confirm_skill",
+    "path":"sprites/spr_button_battle_confirm_skill/spr_button_battle_confirm_skill.yy",
   },
   "spriteMaskId":null,
   "visible":true,

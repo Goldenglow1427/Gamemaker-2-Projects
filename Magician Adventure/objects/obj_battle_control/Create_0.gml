@@ -9,10 +9,12 @@ enemy_count = 0
 
 list_target = []
 
+valid_to_cast = false
+
 var empty_list = []
 
 global.start_battle(
-	[obj_monster_shield_zombie, obj_monster_shield_zombie],
-	[obj_skill_config_1E],
-	[obj_skill_effect_1dmg]
+	global.private_list_of_enemy,
+	global.private_list_of_config,
+	global.private_list_of_effect
 )

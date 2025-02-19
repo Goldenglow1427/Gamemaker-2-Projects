@@ -1,10 +1,20 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-show_debug_log(true)
+// show_debug_log(true)
 
 global.player_health = 60
 global.player_mana = 5
+
+global.private_list_of_enemy = []
+global.private_list_of_config = []
+global.private_list_of_effect = []
+global.record_battle_data = function(list_of_enemy, list_of_config, list_of_effect)
+{
+	global.private_list_of_enemy = list_of_enemy
+	global.private_list_of_config = list_of_config
+	global.private_list_of_effect = list_of_effect
+}
 
 global.start_battle = function(list_of_enemy, list_of_config, list_of_effect)
 {	
@@ -24,20 +34,20 @@ global.start_battle = function(list_of_enemy, list_of_config, list_of_effect)
 	for(var i=0; i<5; i++)
 	{
 		if i >= array_length(list_of_config)
-			instance_create_layer(416-96*i, 640, "Buttons", obj_skill_interface)
+			instance_create_layer(416-96*i, 640, "Buttons", obj_skill_interface);
 		else
-			instance_create_layer(416-96*i, 640, "Buttons", list_of_config[i])
+			instance_create_layer(416-96*i, 640, "Buttons", list_of_config[i]);
 	}
 	for(var i=0; i<5; i++)
 	{
 		if i >= array_length(list_of_effect)
-			instance_create_layer(800+96*i, 640, "Buttons", obj_skill_interface)
+			instance_create_layer(800+96*i, 640, "Buttons", obj_skill_interface);
 		else
-			instance_create_layer(800+96*i, 640, "Buttons", list_of_effect[i])
+			instance_create_layer(800+96*i, 640, "Buttons", list_of_effect[i]);
 	}
 }
 
-room_goto(rm_main_battle_page)
+room_goto(rm_map_level_1)
 
 var enemy_list = [obj_monster_shield_zombie]
 var empty_list = []

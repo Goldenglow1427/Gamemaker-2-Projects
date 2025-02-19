@@ -1,19 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"obj_button_next_turn",
+  "%Name":"obj_skill_config_2e",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_button_next_turn",
+  "name":"obj_skill_config_2e",
   "overriddenProperties":[],
   "parent":{
-    "name":"Buttons",
-    "path":"folders/Objects/Battle Interfaces/Buttons.yy",
+    "name":"Configuration",
+    "path":"folders/Objects/Battle Interfaces/Skill Cards/Configuration.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_skill_par_config",
+    "path":"objects/obj_skill_par_config/obj_skill_par_config.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -32,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_button_battle_next_turn",
-    "path":"sprites/spr_button_battle_next_turn/spr_button_battle_next_turn.yy",
+    "name":"spr_skill_config_1E",
+    "path":"sprites/spr_skill_config_1E/spr_skill_config_1E.yy",
   },
   "spriteMaskId":null,
   "visible":true,

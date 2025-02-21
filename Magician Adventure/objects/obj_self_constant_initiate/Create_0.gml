@@ -19,6 +19,7 @@ global.record_battle_data = function(list_of_enemy, list_of_config, list_of_effe
 global.start_battle = function(list_of_enemy, list_of_config, list_of_effect)
 {	
 	// room_goto(rm_main_battle_page)
+	var ret_list_of_enemy = []
 	
 	if array_length(list_of_config) > 5 or array_length(list_of_enemy) > 5
 	{
@@ -28,7 +29,7 @@ global.start_battle = function(list_of_enemy, list_of_config, list_of_effect)
 	obj_battle_control.enemy_count = array_length(list_of_enemy)
 	for(var i=0; i<obj_battle_control.enemy_count; i++)
 	{
-		instance_create_layer(640-75*(obj_battle_control.enemy_count-1)+i*150, 228, "Opponents", list_of_enemy[i]);
+		array_insert(ret_list_of_enemy, 0, instance_create_layer(640-75*(obj_battle_control.enemy_count-1)+i*150, 228, "Opponents", list_of_enemy[i]));
 	}
 	
 	for(var i=0; i<5; i++)
@@ -45,6 +46,8 @@ global.start_battle = function(list_of_enemy, list_of_config, list_of_effect)
 		else
 			instance_create_layer(800+96*i, 640, "Buttons", list_of_effect[i]);
 	}
+	
+	return ret_list_of_enemy;
 }
 
 room_goto(rm_map_level_1)

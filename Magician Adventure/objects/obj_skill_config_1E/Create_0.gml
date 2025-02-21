@@ -12,5 +12,7 @@ check_valid = function(target)
 
 take_effect = function(target)
 {
+	show_debug_message("Triggered 1")
+	
 	array_insert(obj_battle_control.list_target, 0, target)
 }

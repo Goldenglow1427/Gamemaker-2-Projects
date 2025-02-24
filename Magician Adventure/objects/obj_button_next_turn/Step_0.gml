@@ -6,6 +6,8 @@ if obj_button_confirm_cast.is_active
 else
 	is_active = true
 	
+// show_debug_message(string("is_active: {0}", is_active))
+	
 if is_active
 	image_blend = c_white
 else

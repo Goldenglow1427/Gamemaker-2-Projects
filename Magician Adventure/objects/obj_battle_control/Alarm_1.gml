@@ -9,4 +9,9 @@ for(var i=0; i<instance_number(obj_par_monsters); i++)
 	enemy.alarm[0] = 2
 }
 
-
+for(var i=0; i<instance_number(obj_par_summons); i++)
+{
+	var summon = instance_find(obj_par_summons, i)
+	
+	summon.alarm[0] = 2
+}

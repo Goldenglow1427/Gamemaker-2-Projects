@@ -13,5 +13,5 @@ if obj_battle_control.card_config != pointer_null
 	obj_battle_control.card_config.selected = false
 }
 
-obj_battle_control.card_config = self
+obj_battle_control.card_config = self.id
 self.selected = true

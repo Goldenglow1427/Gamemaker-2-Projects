@@ -9,14 +9,16 @@ global.player_mana = 5
 global.private_list_of_enemy = []
 global.private_list_of_config = []
 global.private_list_of_effect = []
-global.record_battle_data = function(list_of_enemy, list_of_config, list_of_effect)
+global.private_list_of_summon = []
+global.record_battle_data = function(list_of_summon, list_of_enemy, list_of_config, list_of_effect)
 {
 	global.private_list_of_enemy = list_of_enemy
 	global.private_list_of_config = list_of_config
 	global.private_list_of_effect = list_of_effect
+	global.private_list_of_summon = list_of_summon
 }
 
-global.start_battle = function(list_of_enemy, list_of_config, list_of_effect)
+global.start_battle = function(list_of_summon, list_of_enemy, list_of_config, list_of_effect)
 {	
 	// room_goto(rm_main_battle_page)
 	var ret_list_of_enemy = []
@@ -30,6 +32,12 @@ global.start_battle = function(list_of_enemy, list_of_config, list_of_effect)
 	for(var i=0; i<obj_battle_control.enemy_count; i++)
 	{
 		array_insert(ret_list_of_enemy, 0, instance_create_layer(640-75*(obj_battle_control.enemy_count-1)+i*150, 228, "Opponents", list_of_enemy[i]));
+	}
+	
+	obj_battle_control.summon_count = array_length(list_of_summon)
+	for(var i=0; i<obj_battle_control.summon_count; i++)
+	{
+		instance_create_layer(640-75*(obj_battle_control.summon_count-1)+i*150, 600, "Opponents", list_of_summon[i]);
 	}
 	
 	for(var i=0; i<5; i++)

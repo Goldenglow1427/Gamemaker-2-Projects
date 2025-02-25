@@ -60,5 +60,13 @@ global.start_battle = function(list_of_summon, list_of_enemy, list_of_config, li
 
 room_goto(rm_map_level_1)
 
-var enemy_list = [obj_monster_shield_zombie]
-var empty_list = []
+global.param_damage_phy = 0
+global.param_damage_art = 1
+global.param_damage_true = 2
+
+global.param_sp_stasis = 0
+global.param_sp_auto = 1
+global.param_sp_atk = 2
+global.param_sp_def = 3
+
+

@@ -67,6 +67,7 @@
     {"id":{"name":"obj_map_battle_node","path":"objects/obj_map_battle_node/obj_map_battle_node.yy",},},
     {"id":{"name":"obj_map_control","path":"objects/obj_map_control/obj_map_control.yy",},},
     {"id":{"name":"obj_monster_shield_zombie","path":"objects/obj_monster_shield_zombie/obj_monster_shield_zombie.yy",},},
+    {"id":{"name":"obj_par_monster","path":"objects/obj_par_monster/obj_par_monster.yy",},},
     {"id":{"name":"obj_par_monsters","path":"objects/obj_par_monsters/obj_par_monsters.yy",},},
     {"id":{"name":"obj_par_summons","path":"objects/obj_par_summons/obj_par_summons.yy",},},
     {"id":{"name":"obj_self_constant_initiate","path":"objects/obj_self_constant_initiate/obj_self_constant_initiate.yy",},},

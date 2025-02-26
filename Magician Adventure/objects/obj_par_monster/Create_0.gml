@@ -47,6 +47,15 @@ f_find_vulnerability = function()
 f_take_damage = function(dmg)
 {
 	var val = dmg.amount;
+
+	if dmg.type != global.param_damage_true
+	{
+		if self.ef_shield != 0
+		{
+			self.ef_shield--;
+			return;
+		}
+	}
 	
 	if dmg.type == global.param_damage_art
 		val *= (1-self.res/100);

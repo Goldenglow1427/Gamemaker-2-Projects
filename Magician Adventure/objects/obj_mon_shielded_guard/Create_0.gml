@@ -1,8 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-hitpoint = max_hitpoint
+// Inherit the parent event
+event_inherited();
 
-selected = false
-
-current_turn = 0
+self.ef_shield = 1

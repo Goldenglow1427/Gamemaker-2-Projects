@@ -26,7 +26,7 @@ Each monster should have its own:
   ```cpp
   {
       amount: (int),
-      type: (int)
+      type: (int),
   }
   ```
 
@@ -37,7 +37,8 @@ Each monster should have its own:
   ```cpp
   {
       type: (int),
-      amount: (int)
+      amount: (int),
+      init: (int) // Init <= Amount
   }
   ```
 
@@ -118,7 +119,7 @@ Each monster should have its own:
 
 ### D1: Regular Monsters
 
-- 带盾护卫
+- 带盾护卫（Shielded Guard）
 
   > The most low-level defenders of the castle. Don't know magic, but the armors can protect them well.
 
@@ -171,6 +172,24 @@ Each monster should have its own:
   Skill - Recovers 10 hp of an ally, grants it 50% protection / applies 5 burn damage and 50% vulnerability (4 auto-sp);
 
   Talent - When on battlefield, allies recover additional 0.5 sp per turn;
+  
+- 微物学者
+
+  Auto - Grants +1 ATK to all friendly "地堡老鼠"
+
+  Skill - Summon 1 地堡老鼠 if there are enough space (2 auto-sp);
+
+- 凋亡术士
+
+  Auto - Deals 4 art damage and 3 `necrosis-dmg`;
+
+  Talent - Whenever a "necrosis-dmg" on allies is ignited, this unit deals 3 more art damage;
+
+- 久战指挥官
+
+  Auto - Let one enemy gains 100% `power` for 1 round;
+
+  Talent - When on battlefield, all allies gain 20% `protection` and 20% `power` by default;
 
 ## List of Battles
 
@@ -184,7 +203,7 @@ Variation of battles: 4-5-6-6-6, excluding boss fights;
 
   1 自动人偶
 
-  > Emergency: 2 extra 自动人偶
+  > Emergency: 2 extra 自动人偶 will appear;
 
 - 破败街道
 
@@ -192,13 +211,13 @@ Variation of battles: 4-5-6-6-6, excluding boss fights;
 
   1 凋败骷髅 / 1 亡灵射手
 
-  > Emergency: always 2 亡灵射手 + 3 地堡老鼠 / 3 凋败骷髅 + 2 地堡老鼠
+  > Emergency: always 2 亡灵射手 + 3 地堡老鼠 / 3 凋败骷髅 + 2 地堡老鼠;
 
 - 紧急炼药
 
   3 见习法师
 
-  > Emergency: 1 见习法师 replaced by 1 宫廷药师
+  > Emergency: 1 见习法师 replaced by 1 宫廷药师;
 
 - 窃贼团伙
 
@@ -209,3 +228,40 @@ Variation of battles: 4-5-6-6-6, excluding boss fights;
   1 见习法师
 
   > Emergency: 1 more 自动人偶 will appear.
+
+### L2: Broken Castle Hall
+
+- 生物实验室
+
+  1 微物学者
+
+  2 地堡老鼠
+
+  > Emergency: 地堡老鼠 gains significantly increased max hp (+50%);
+
+- 舞会
+
+  2 带盾护卫
+
+  2 自动人偶
+
+  > Emergency: 1 additional 久战指挥官 will appear;
+
+### L3: The Grand Hall
+
+### L4: Corrupted Watchtower
+
+- 破败舞厅
+
+  2 凋败骷髅
+
+  2 亡灵射手
+
+  1 凋亡术士
+
+  > Emergency: 1 亡灵射手 will be replaced by 1 凋亡术士
+
+### L5: The Throne Room
+
+### L6: Desert Illusion
+

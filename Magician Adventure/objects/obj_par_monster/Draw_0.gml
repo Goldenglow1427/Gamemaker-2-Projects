@@ -6,7 +6,7 @@ draw_self()
 draw_set_color(c_gray)
 draw_rectangle(x-50, y-16, x+50, y-10, false)
 
-var health_percent = hitpoint / max_hitpoint * 100
+var health_percent = self.hp / self.def_max_hitpoint * 100
 health_percent = floor(health_percent)
 
 draw_set_color(c_red)

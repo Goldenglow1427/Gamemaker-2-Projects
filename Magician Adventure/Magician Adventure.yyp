@@ -50,6 +50,7 @@
   "IncludedFiles":[
     {"$GMIncludedFile":"","%Name":"code_explain.md","CopyToMask":-1,"filePath":"datafiles","name":"code_explain.md","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"battle_background.jpg","CopyToMask":-1,"filePath":"datafiles/images","name":"battle_background.jpg","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+    {"$GMIncludedFile":"","%Name":"Monster Design Worksheet.md","CopyToMask":-1,"filePath":"datafiles","name":"Monster Design Worksheet.md","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
   ],
   "isEcma":false,
   "LibraryEmitters":[],
@@ -66,9 +67,8 @@
     {"id":{"name":"obj_indicator_mana","path":"objects/obj_indicator_mana/obj_indicator_mana.yy",},},
     {"id":{"name":"obj_map_battle_node","path":"objects/obj_map_battle_node/obj_map_battle_node.yy",},},
     {"id":{"name":"obj_map_control","path":"objects/obj_map_control/obj_map_control.yy",},},
-    {"id":{"name":"obj_monster_shield_zombie","path":"objects/obj_monster_shield_zombie/obj_monster_shield_zombie.yy",},},
+    {"id":{"name":"obj_mon_shielded_guard","path":"objects/obj_mon_shielded_guard/obj_mon_shielded_guard.yy",},},
     {"id":{"name":"obj_par_monster","path":"objects/obj_par_monster/obj_par_monster.yy",},},
-    {"id":{"name":"obj_par_monsters","path":"objects/obj_par_monsters/obj_par_monsters.yy",},},
     {"id":{"name":"obj_par_summons","path":"objects/obj_par_summons/obj_par_summons.yy",},},
     {"id":{"name":"obj_self_constant_initiate","path":"objects/obj_self_constant_initiate/obj_self_constant_initiate.yy",},},
     {"id":{"name":"obj_skill_config_1E","path":"objects/obj_skill_config_1E/obj_skill_config_1E.yy",},},

@@ -4,7 +4,7 @@ event_inherited()
 
 check_valid = function(target)
 {
-	if object_is_ancestor(target.object_index, obj_par_monsters)
+	if object_is_ancestor(target.object_index, obj_par_monster)
 		return true
 	else
 		return false

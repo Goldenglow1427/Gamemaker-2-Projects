@@ -4,5 +4,5 @@ event_inherited()
 
 take_effect = function(target)
 {
-	target.hitpoint -= 10
+	target.hp -= 10
 }

@@ -1,21 +1,22 @@
 {
   "$GMObject":"",
-  "%Name":"obj_monster_shield_zombie",
+  "%Name":"obj_mon_shielded_guard",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_monster_shield_zombie",
+  "name":"obj_mon_shielded_guard",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_par_monsters","path":"objects/obj_par_monsters/obj_par_monsters.yy",},"propertyId":{"name":"max_hitpoint","path":"objects/obj_par_monsters/obj_par_monsters.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"30",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_par_monster","path":"objects/obj_par_monster/obj_par_monster.yy",},"propertyId":{"name":"def_sp","path":"objects/obj_par_monster/obj_par_monster.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"[{type: global.param_sp_auto, amount:2, init: 0}]",},
   ],
   "parent":{
     "name":"Base Monsters",
     "path":"folders/Objects/Battle Interfaces/Monsters/Base Monsters.yy",
   },
   "parentObjectId":{
-    "name":"obj_par_monsters",
-    "path":"objects/obj_par_monsters/obj_par_monsters.yy",
+    "name":"obj_par_monster",
+    "path":"objects/obj_par_monster/obj_par_monster.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

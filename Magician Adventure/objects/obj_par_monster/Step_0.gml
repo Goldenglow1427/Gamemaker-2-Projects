@@ -33,4 +33,5 @@ if ef_burn_dmg >= 10
 		type: global.param_damage_art,
 		amount: 30
 	})
+	self.res -= 20;
 }

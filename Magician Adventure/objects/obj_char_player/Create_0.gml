@@ -3,7 +3,7 @@
 
 hp = 70;
 max_hp = 70;
-mana = 6;
+shards = 6;
 experience = 0;
 
 combat_mana = 5;

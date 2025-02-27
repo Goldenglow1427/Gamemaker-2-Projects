@@ -8,8 +8,8 @@
   "name":"obj_summon_def_water_spirit",
   "overriddenProperties":[],
   "parent":{
-    "name":"Defensive Summons",
-    "path":"folders/Objects/Battle Interfaces/Summons/Defensive Summons.yy",
+    "name":"D3: Defend Summons",
+    "path":"folders/Objects/Battle Interfaces/Summons/D3: Defend Summons.yy",
   },
   "parentObjectId":{
     "name":"obj_par_summons",

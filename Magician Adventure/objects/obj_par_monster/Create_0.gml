@@ -67,7 +67,7 @@ f_take_damage = function(dmg)
 	}
 	
 	if dmg.type == global.param_damage_art
-		val *= (1-self.res/100);
+		val *= (1-clamp(self.res, 0, 95)/100);
 	if dmg.type != global.param_damage_true
 		val *= (1-self.f_find_protection()/100);
 		

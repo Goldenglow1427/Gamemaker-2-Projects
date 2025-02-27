@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_indicator_mana",
+  "%Name":"obj_indicator_shards",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_indicator_mana",
+  "name":"obj_indicator_shards",
   "overriddenProperties":[],
   "parent":{
     "name":"Graphics",

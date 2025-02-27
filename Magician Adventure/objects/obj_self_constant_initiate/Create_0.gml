@@ -1,7 +1,23 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-// show_debug_log(true)
+DEBUG_MODE = false;
+
+// Setting the random seeds.
+if DEBUG_MODE
+{
+	show_debug_log(true)
+	random_set_seed(0)
+}
+else
+{
+	random_set_seed(current_second * 114
+		+ current_minute * 514
+		+ current_hour * 1919
+		+ current_day * 810
+		+ current_month * 1234
+		+ current_year * 5678);
+}
 
 global.private_list_of_enemy = []
 global.private_list_of_config = []

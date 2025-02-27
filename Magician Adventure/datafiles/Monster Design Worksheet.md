@@ -60,8 +60,8 @@ Each monster should have its own:
 
 - `burn_dmg`: by layers, when accumulated to 10, deals huge one instance damage;
 
-  - Enemies: deals 30 art damage;
-  - Allies: deals 10 magic damage, applies 3 DOT over 5 rounds;
+  - Enemies: deals 30 art damage, loses 20 RES;
+  - Allies: deals 10 magic damage, applies 3 art DOT over 5 rounds;
 
 - `necrosis_dmg`: by layers, when accumulated to 10:
 
@@ -120,7 +120,7 @@ Each monster should have its own:
 The character should have the following characteristics:
 
 - HP: the current health value;
-- Mana: the current mana value, required to **cast cards, create & heal summons**;
+- Shards: the current amount of memory shards, required to **cast cards, create & heal summons**;
 - EXP: gained from battle as loot;
 
 The character itself should have the following methods:
@@ -128,6 +128,96 @@ The character itself should have the following methods:
 - `f_take_damage(dmg)`
 
   Let the player to take damage
+
+---
+
+Summons: each summon has some unique abilities. Ability costs mana to cast;
+
+### D1: Combat Summons
+
+> Combat summons help with battle through various damaging skills.
+
+### D2: Support Summons
+
+> Support summons buff the allies and de-buff the enemies to better secure victory.
+
+
+
+### D3: Defend Summons
+
+> Defend summons attract opponent's attention, and protect allied units.
+
+- 卫兵之魂
+
+  HP: 30	ATK: 5	RES: 20	TAUNT: 0~3	RARE: 1
+
+  Skill A (1): Gain 10 TAUNT for this round.
+
+- 仙人掌之魂
+
+  HP: 25	ATK: 5	RES: 30	TAUNT: 5~3	RARE: 1
+
+  Skill A (1): Gain 5 TAUNT for this round. When attacked, reflect `5 PHY DMG` to the damager.
+
+- 守护者之魂
+
+  HP: 20	ATK: 10	RES: 30	TAUNT: 0~3	RARE: 1
+
+  Skill A (1): Grants 1 SHIELD and 10 TAUNT for this round.
+
+  
+
+- 巨树之魂
+
+  HP: 50	ATK: 5	RES: 40	TAUNT: 10~3	RARE: 2
+
+  Skill A (3): Recover 10 health by the end of this turn.
+
+- 石像之魂
+
+  HP: 60	ATK: 10	RES: 20	TAUNT: 10~3	RARE: 2
+
+  Skill A (1): Gain 30 RES until the end of this turn;
+
+  Skill B (2): Until the end of this turn: gain 10 TAUNT, when attacked, reflect `3 NECROSIS-DMG` to the attacker;
+
+- 护佑者之魂
+
+  HP: 30	ATK: 20	RES: 30	TAUNT: 0~3	RARE: 2
+
+  Skill A (2) - Until the end of this turn: the unit with highest TAUNT gains `10 RES`;
+
+  Talent - Allied units take 20% less elemental damage;
+
+- 天使之魂
+
+  HP: 40	ATK: 10	RES: 10	TAUNT: 0~3	RARE: 2
+
+  Skill A (2) - Recover `10 HP` to the most wounded summon;
+
+  Skill B (2) - Recover `5 HP` to the player;
+
+  
+
+- 影哨之魂
+
+  HP: 10	ATK: 0	RES: 10	TAUNT: -10~3	RARE: 3
+
+  Skill A (2) - Let the enemy with the least HP gains `50% ENFEEBLENESS`;
+
+  Skill B (3) - Sacrifices this soul: deals `10 DMG` to all enemies, and stuns them for 1 round;
+
+- 参天神树之魂
+
+  HP: 80	ATK: 20	RES: 20	TAUNT: 30~3	RARE: 3
+
+  Skill A (1) - Gains 2 additional mana by the starting of next turn;
+
+  Skill B (3) - Recover `5 HP` to all allies & players, and additional `5 HP` to the one with least health percent;
+
+  Skill C (0) - All allies gain `20% PROTECTION`;
+
+- 
 
 ## Monsters
 

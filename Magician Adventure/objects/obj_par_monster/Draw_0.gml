@@ -11,3 +11,11 @@ health_percent = floor(health_percent)
 
 draw_set_color(c_red)
 draw_rectangle(x-50, y-16, x-50+health_percent, y-10, false)
+
+// Special effects.
+// Shields.
+if self.ef_shield > 0
+{
+	draw_sprite(spr_ef_shield_outline, 0, x, y)
+}
+

@@ -69,4 +69,45 @@ global.param_sp_auto = 1
 global.param_sp_atk = 2
 global.param_sp_def = 3
 
+global.param_node_void = -1
+global.param_node_regular_battle = 0
+global.param_node_emergency_battle = 1
+global.param_node_event = 2
+
+/// @description Combat-related nodes.
+// You can write your code in this editor
+
+global.param_battle_type_regular = 0;
+global.param_battle_type_emergency = 1;
+global.param_battle_type_elite = 2;
+global.param_battle_type_boss = 3;
+global.param_battle_type_bonus = 4;
+global.param_battle_type_void = -1;
+
+global.collection_regular_battles = [
+	{
+		level: 1,
+		name: "The Guards",
+		diff: global.param_battle_type_regular,
+		enemy: [
+			obj_mon_shielded_guard,
+			obj_mon_automatic_doll,
+			obj_mon_shielded_guard
+		],
+		env: function(){}
+	},
+	{
+		level: 1,
+		name: "E The Guards",
+		diff: global.param_battle_type_emergency,
+		enemy: [
+			obj_mon_shielded_guard,
+			obj_mon_automatic_doll,
+			obj_mon_automatic_doll,
+			obj_mon_automatic_doll,
+			obj_mon_shielded_guard
+		],
+		env: function(){}
+	}
+]
 

@@ -1,6 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+current_round = 1;
+
 card_config = pointer_null
 card_effect = pointer_null
 card_target = pointer_null
@@ -20,3 +22,6 @@ list_enemy = global.start_battle(
 
 instance_deactivate_object(obj_map_control)
 instance_deactivate_object(obj_parent_map_node)
+
+list_action_stack = []
+com_current_actor = pointer_null

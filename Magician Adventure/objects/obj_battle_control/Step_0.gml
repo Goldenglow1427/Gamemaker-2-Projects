@@ -21,4 +21,4 @@ for (var i=0; i<array_length(list_enemy); i++)
 		survived_target++
 		
 if survived_target == 0
-	alarm[2] = 1;
+	alarm[10] = 1;

@@ -8,8 +8,8 @@
   "name":"obj_self_constant_initiate",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Map Resources",
+    "path":"folders/Objects/Map Resources.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -4,7 +4,6 @@
 hori_defa = 200;
 hori_dist = 350;
 
-
 level = 1;
 stage_list = [3, 4, 4, 3];
 connect_list = [[1, 2, 1], [1, 1, 1, 1], [2, 1, 1]]
@@ -32,7 +31,7 @@ f_generate_stage_map = function(list_of_levels)
 			var inst = instance_create_layer(hori_defa + hori_dist * i,
 				360-130/2*(list_of_levels[i]-1)+130*j,
 				"Instances",
-				obj_map_battle_node);
+				obj_parent_map_node);
 				
 			inst.dep = i;
 			inst.order = j;
@@ -96,6 +95,8 @@ f_generate_stage_map = function(list_of_levels)
 			game_end(-1);
 		}
 	}
+	
+	self.alarm[0] = 2;
 }
 f_attempt_to_move = function(next_id)
 {

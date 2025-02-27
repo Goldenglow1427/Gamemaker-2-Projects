@@ -2,14 +2,14 @@
   "$GMObject":"",
   "%Name":"obj_mon_shielded_guard",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_mon_shielded_guard",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_par_monster","path":"objects/obj_par_monster/obj_par_monster.yy",},"propertyId":{"name":"def_sp","path":"objects/obj_par_monster/obj_par_monster.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"[{type: global.param_sp_auto, amount:2, init: 0}]",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_par_monster","path":"objects/obj_par_monster/obj_par_monster.yy",},"propertyId":{"name":"def_max_hitpoint","path":"objects/obj_par_monster/obj_par_monster.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"10",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_par_monster","path":"objects/obj_par_monster/obj_par_monster.yy",},"propertyId":{"name":"def_max_hitpoint","path":"objects/obj_par_monster/obj_par_monster.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"20",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_par_monster","path":"objects/obj_par_monster/obj_par_monster.yy",},"propertyId":{"name":"def_attack","path":"objects/obj_par_monster/obj_par_monster.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"5",},
   ],
   "parent":{
     "name":"Base Monsters",
@@ -37,8 +37,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_monster_shield_zombie",
-    "path":"sprites/spr_monster_shield_zombie/spr_monster_shield_zombie.yy",
+    "name":"spr_mon_shield_zombie",
+    "path":"sprites/spr_mon_shield_zombie/spr_mon_shield_zombie.yy",
   },
   "spriteMaskId":null,
   "visible":true,

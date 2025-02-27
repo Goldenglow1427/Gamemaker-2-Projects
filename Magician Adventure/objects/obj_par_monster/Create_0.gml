@@ -26,6 +26,15 @@ ef_necrosis_dmg = 0
 ef_necrosis_active = false
 ef_stun = 0
 
+// Communication Protocol.
+com_done_action = true
+com_activate_effect = function()
+{
+}
+def_x = x;
+def_y = y;
+cur_dir = 1;
+
 // Methods.
 f_find_protection = function()
 {
@@ -67,8 +76,14 @@ f_take_damage = function(dmg)
 	for(var i=0; i<array_length(sp); i++)
 	{
 		if sp[i].type == global.param_sp_def
-			sp[i].amount++;
+			sp[i].init++;
 	}
 	
 	self.hp -= ceil(val);
 }
+
+f_use_auto = function()
+{
+	// Requires implementation.
+}
+f_use_skills = [] // List of skills on activation.

@@ -3,7 +3,7 @@
 
 // Check death.
 if self.hp <= 0
-	alarm[1] = 1
+	alarm[10] = 1
 
 if self.selected
 	image_blend = c_aqua

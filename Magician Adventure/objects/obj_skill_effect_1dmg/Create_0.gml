@@ -4,5 +4,8 @@ event_inherited()
 
 take_effect = function(target)
 {
-	target.hp -= 10
+	target.f_take_damage({
+		type: global.param_damage_phy,
+		amount: 10
+	});
 }

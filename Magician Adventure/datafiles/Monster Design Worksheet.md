@@ -135,7 +135,7 @@ Each monster should have its own:
 
   Auto - Sleep;
 
-  Skill - Charged attack, deals 10 damage; 2 def recovery;
+  Skill 1 - Charged attack, deals 10 damage; 2 def recovery;
 
   Talent 1 - Auto change to charged attack since `Round 4`;
 

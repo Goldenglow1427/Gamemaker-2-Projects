@@ -3,9 +3,6 @@
 
 // show_debug_log(true)
 
-global.player_health = 60
-global.player_mana = 5
-
 global.private_list_of_enemy = []
 global.private_list_of_config = []
 global.private_list_of_effect = []

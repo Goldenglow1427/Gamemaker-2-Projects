@@ -65,6 +65,7 @@
     {"id":{"name":"obj_battle_control","path":"objects/obj_battle_control/obj_battle_control.yy",},},
     {"id":{"name":"obj_button_confirm_cast","path":"objects/obj_button_confirm_cast/obj_button_confirm_cast.yy",},},
     {"id":{"name":"obj_button_next_turn","path":"objects/obj_button_next_turn/obj_button_next_turn.yy",},},
+    {"id":{"name":"obj_char_player","path":"objects/obj_char_player/obj_char_player.yy",},},
     {"id":{"name":"obj_indicator_health","path":"objects/obj_indicator_health/obj_indicator_health.yy",},},
     {"id":{"name":"obj_indicator_mana","path":"objects/obj_indicator_mana/obj_indicator_mana.yy",},},
     {"id":{"name":"obj_map_control","path":"objects/obj_map_control/obj_map_control.yy",},},

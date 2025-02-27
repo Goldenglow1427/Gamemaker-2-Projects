@@ -13,7 +13,10 @@ self.f_use_auto = function()
 	
 		self.com_activate_effect = function()
 		{
-			global.player_health -= self.atk;
+			obj_char_player.f_take_damage({
+				type: global.param_damage_phy,
+				amount: self.atk
+			})
 		}
 	}
 }
@@ -27,7 +30,12 @@ self.f_use_skills = [
 		self.com_activate_effect = function()
 		{
 			if obj_battle_control.current_round < 4
-				global.player_health -= self.atk;
+			{
+				obj_char_player.f_take_damage({
+					type: global.param_damage_phy,
+					amount: self.atk
+				})
+			}
 		}
 	}
 ];

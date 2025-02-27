@@ -19,3 +19,31 @@ if self.ef_shield > 0
 	draw_sprite(spr_ef_shield_outline, 0, x, y)
 }
 
+// Necrosis damage.
+draw_set_color(c_red)
+draw_rectangle(x-30, y-60, x+30, y-57, true);
+if self.ef_burn_active == true
+{
+	draw_set_color(c_orange);
+	draw_rectangle(x-30, y-60, x+30, y-57, false);
+}
+else
+{
+	draw_set_color(c_red);
+	draw_rectangle(x-30, y-60, x-30+6*self.ef_burn_dmg, y-57, false);
+}
+
+draw_set_color(c_gray)
+draw_rectangle(x-30, y-50, x+30, y-47, true);
+if self.ef_necrosis_active == true
+{
+	draw_set_color(c_ltgray);
+	draw_rectangle(x-30, y-50, x+30, y-47, false);
+}
+else
+{
+	draw_set_color(c_gray);
+	draw_rectangle(x-30, y-50, x-30+6*self.ef_necrosis_dmg, y-47, false);
+}
+
+

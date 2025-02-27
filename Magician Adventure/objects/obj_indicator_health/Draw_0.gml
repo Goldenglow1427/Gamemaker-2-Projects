@@ -4,5 +4,5 @@
 draw_set_color(c_white)
 draw_text_transformed(35, 516, string(
 	"Health: {0}",
-	global.player_health
+	obj_char_player.hp
 ), 2, 2, 0)

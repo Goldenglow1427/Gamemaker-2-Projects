@@ -60,12 +60,12 @@ Each monster should have its own:
 
 - `burn_dmg`: by layers, when accumulated to 10, deals huge one instance damage;
 
-  - Enemies: deals 15 magic damage;
+  - Enemies: deals 30 art damage;
   - Allies: deals 10 magic damage, applies 3 DOT over 5 rounds;
 
 - `necrosis_dmg`: by layers, when accumulated to 10:
 
-  - Enemies: reset the SP for most skills to 0;
+  - Enemies: deals 15 true damage, reset the SP for most skills to 0;
   - Allies: starting Energy reduce 50% for 2 turns;
 
 - `ef_stun`: by turns, each turn reduce by 1;
@@ -114,6 +114,20 @@ Each monster should have its own:
   ```
 
   
+
+## Character & Summons
+
+The character should have the following characteristics:
+
+- HP: the current health value;
+- Mana: the current mana value, required to **cast cards, create & heal summons**;
+- EXP: gained from battle as loot;
+
+The character itself should have the following methods:
+
+- `f_take_damage(dmg)`
+
+  Let the player to take damage
 
 ## Monsters
 
@@ -182,6 +196,8 @@ Each monster should have its own:
 - 凋亡术士
 
   Auto - Deals 4 art damage and 3 `necrosis-dmg`;
+
+  Skill 1 - Applies 5 `necrosis-dmg` on all allies;
 
   Talent - Whenever a "necrosis-dmg" on allies is ignited, this unit deals 3 more art damage;
 

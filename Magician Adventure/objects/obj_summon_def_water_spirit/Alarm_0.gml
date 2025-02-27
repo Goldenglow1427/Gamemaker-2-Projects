@@ -4,5 +4,4 @@
 // Inherit the parent event
 event_inherited();
 
-show_debug_message("Health raised by 2!")
-global.player_health += 2
+obj_char_player.hp += 2;

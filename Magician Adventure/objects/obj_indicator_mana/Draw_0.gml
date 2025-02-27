@@ -4,5 +4,5 @@
 draw_set_color(c_white)
 draw_text_transformed(35, 556, string(
 	"Mana: {0}",
-	global.player_mana
+	obj_char_player.mana
 ), 2, 2, 0)

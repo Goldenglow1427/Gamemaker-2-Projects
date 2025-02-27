@@ -1,7 +1,5 @@
-/// @description Insert description here
+/// @description Method to shake the monster downwards.
 // You can write your code in this editor
-
-show_debug_message("TRIGGERED!");
 
 if y == def_y + 20
 {

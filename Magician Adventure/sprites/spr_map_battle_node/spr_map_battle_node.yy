@@ -24,7 +24,7 @@
   ],
   "name":"spr_map_battle_node",
   "nineSlice":null,
-  "origin":0,
+  "origin":4,
   "parent":{
     "name":"Map Resources",
     "path":"folders/Sprites/Map Resources.yy",
@@ -51,7 +51,7 @@
     "eventStubScript":null,
     "eventToFunction":{},
     "length":1.0,
-    "lockOrigin":false,
+    "lockOrigin":true,
     "moments":{
       "$KeyframeStore<MomentsEventKeyframe>":"",
       "Keyframes":[],
@@ -76,8 +76,8 @@
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":0,
-    "yorigin":0,
+    "xorigin":110,
+    "yorigin":50,
   },
   "swatchColours":null,
   "swfPrecision":0.5,

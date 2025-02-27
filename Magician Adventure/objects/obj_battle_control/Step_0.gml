@@ -12,3 +12,13 @@ if card_config != pointer_null && card_effect != pointer_null
 }
 else
 	valid_to_cast = false
+
+
+var survived_target = 0;
+
+for (var i=0; i<array_length(list_enemy); i++)
+	if instance_exists(list_enemy[i])
+		survived_target++
+		
+if survived_target == 0
+	alarm[2] = 1;

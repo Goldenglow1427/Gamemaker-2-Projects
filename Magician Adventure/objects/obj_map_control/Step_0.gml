@@ -1,11 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-var CAM_SPEED = 3
+var CAM_SPEED = 10
 
 var cur_pos = camera_get_view_x(view_camera[0])
-
-show_debug_message(string("{0}", cur_pos))
 
 if keyboard_check(ord("A"))
 	cur_pos -= CAM_SPEED

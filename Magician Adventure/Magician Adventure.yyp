@@ -70,6 +70,7 @@
     {"id":{"name":"obj_mon_shielded_guard","path":"objects/obj_mon_shielded_guard/obj_mon_shielded_guard.yy",},},
     {"id":{"name":"obj_par_monster","path":"objects/obj_par_monster/obj_par_monster.yy",},},
     {"id":{"name":"obj_par_summons","path":"objects/obj_par_summons/obj_par_summons.yy",},},
+    {"id":{"name":"obj_parent_map_node","path":"objects/obj_parent_map_node/obj_parent_map_node.yy",},},
     {"id":{"name":"obj_self_constant_initiate","path":"objects/obj_self_constant_initiate/obj_self_constant_initiate.yy",},},
     {"id":{"name":"obj_skill_config_1E","path":"objects/obj_skill_config_1E/obj_skill_config_1E.yy",},},
     {"id":{"name":"obj_skill_config_1S","path":"objects/obj_skill_config_1S/obj_skill_config_1S.yy",},},

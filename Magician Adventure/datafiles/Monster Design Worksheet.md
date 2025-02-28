@@ -137,6 +137,20 @@ Summons: each summon has some unique abilities. Ability costs mana to cast;
 
 > Combat summons help with battle through various damaging skills.
 
+- 时空行客之魂
+
+- 暗界镇灵之魂【Elemental】
+
+  HP: 70	ATK: 30	RES: 50	TAUNT:  30~3	RARE: 4
+
+  Skill A (2) - Deals 3 `NECROSIS-DMG` and applies 30% `VULNERABILITY` to all enemies;
+
+  Skill B (3) - Poisons all enemies: they permanently loses 10 HP by the beginning of a turn;
+
+  Skill C (5) - Can only be casted once per battle: immediately triggers the `NECROSIS` state of all enemies (if their `necrosis-active=true`, reset it and then trigger again); applies 100% `FRAGILE` for 2 turns and STUN for 1 turn;
+
+  Talent - Whenever the `NECROSIS-DMG` is triggered, enemy loses additional 10% of their max HP (as true dmg);
+
 ### D2: Support Summons
 
 > Support summons buff the allies and de-buff the enemies to better secure victory.
@@ -149,7 +163,7 @@ Summons: each summon has some unique abilities. Ability costs mana to cast;
 
 - 卫兵之魂
 
-  HP: 30	ATK: 5	RES: 20	TAUNT: 0~3	RARE: 1
+  HP: 30	ATK: 10	RES: 20	TAUNT: 0~3	RARE: 1
 
   Skill A (1): Gain 10 TAUNT for this round.
 
@@ -187,7 +201,7 @@ Summons: each summon has some unique abilities. Ability costs mana to cast;
 
   Skill A (2) - Until the end of this turn: the unit with highest TAUNT gains `10 RES`;
 
-  Talent - Allied units take 20% less elemental damage;
+  Talent - Allied units take `20%` less elemental damage;
 
 - 天使之魂
 
@@ -199,15 +213,17 @@ Summons: each summon has some unique abilities. Ability costs mana to cast;
 
   
 
-- 影哨之魂
+- 影哨之魂【Control】
 
-  HP: 10	ATK: 0	RES: 10	TAUNT: -10~3	RARE: 3
+  HP: 10	ATK: 10	RES: 10	TAUNT: -10~3	RARE: 3
 
-  Skill A (2) - Let the enemy with the least HP gains `50% ENFEEBLENESS`;
+  Skill A (2) - Let the enemy with the **least HP percentage** gains `60% ENFEEBLENESS`;
 
   Skill B (3) - Sacrifices this soul: deals `10 DMG` to all enemies, and stuns them for 1 round;
 
-- 参天神树之魂
+  Talent - When this unit is on battlefield: friendly members gain `20% physical dodge` and `20% art dodge`;
+
+- 参天神树之魂【Recovery】
 
   HP: 80	ATK: 20	RES: 20	TAUNT: 30~3	RARE: 3
 
@@ -217,7 +233,53 @@ Summons: each summon has some unique abilities. Ability costs mana to cast;
 
   Skill C (0) - All allies gain `20% PROTECTION`;
 
-- 
+- 导灵僧之魂【Elemental】
+
+  HP: 50	ATK: 5	RES: 40	TAUNT: 0~3	RARE: 3
+
+  Skill A (2) - Until next turn: All allies receive 50% less ELEMENT-DMG and gain 20% `PROTECTION`;
+
+  Skill B (3) - Grants 3 layer of shield to the summon with highest TAUNT;
+
+  Skill C (3) - Grants 1 layer of shield to all summons;
+
+  Talent - Enter the battlefield with 3 layers of SOUL ARMOR; When holding SOUL ARMOR:
+
+  - Casting skills consume 1 layer of SOUL ARMOR instead of mana;
+  - Gain `50% PROTECTION` and 10 TAUNT;
+
+- 盾卫之魂【Offense】
+
+  HP: 100	ATK: 20	RES: 20	TAUNT: 40~3	RARE: 3
+
+  Skill A (1) - Until next turn: This unit gains 30% `PROTECTION`;
+
+  Skill B (2) - Until next turn: The talent of this unit also deals 3 `NECROSIS-DMG`;
+
+  Skill C (2) - Until next turn: The talent of this unit also deals 3 `BURN-DMG`;
+
+  Talent - When this unit is attacked, it deals 10 damage to the attacker as counter attack;
+
+  
+
+- 黄金圣盾之魂【Elemental, **Legendary**】
+
+  HP: 90	ATK: 20	RES: 80	TAUNT: 40~3	RARE: 4
+
+  Skill A (2) - Until next turn: all allies gain 50% `PROTECTION`;
+
+  Skill B (3) - Until next turn: this unit gain 70% `PROTECTION`; when an ally takes damage, shares 70% of their damage taken (calculate enemy effects like ENFEEBLE, ignore target effects like VULNERABILITY);
+
+  Skill C (4) - Can only be used once per game, grants all allies 3 layers of SHIELD; for the rest of the game, whenever a shield breaks, deals 3 `BURN-DMG` to all allies; 
+
+  Talent - When this unit is on battlefield: all allies receives 50% less ELEMENTAL DMG;
+
+### D4: Special Summons
+
+- 腐化邪神之魂
+- 噬梦幽魂之魂
+- 迷乱漩涡之魂
+- 亡灵法师之魂
 
 ## Monsters
 

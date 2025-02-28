@@ -9,7 +9,7 @@ draw_rectangle(x-50, y-16, x+50, y-10, false)
 var health_percent = self.hp / self.def_max_hp * 100
 health_percent = floor(health_percent)
 
-draw_set_color(c_red)
+draw_set_color(hp_bar_color)
 draw_rectangle(x-50, y-16, x-50+health_percent, y-10, false)
 
 // Special effects.
@@ -45,5 +45,3 @@ else
 	draw_set_color(c_gray);
 	draw_rectangle(x-30, y-50, x-30+6*self.ef_necrosis_dmg, y-47, false);
 }
-
-

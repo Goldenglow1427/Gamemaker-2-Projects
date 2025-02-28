@@ -8,8 +8,8 @@
   "name":"obj_mon_shielded_guard",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_par_monster","path":"objects/obj_par_monster/obj_par_monster.yy",},"propertyId":{"name":"def_sp","path":"objects/obj_par_monster/obj_par_monster.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"[{type: global.param_sp_auto, amount:2, init: 0}]",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_par_monster","path":"objects/obj_par_monster/obj_par_monster.yy",},"propertyId":{"name":"def_max_hitpoint","path":"objects/obj_par_monster/obj_par_monster.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"20",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_par_monster","path":"objects/obj_par_monster/obj_par_monster.yy",},"propertyId":{"name":"def_attack","path":"objects/obj_par_monster/obj_par_monster.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"5",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_par_entities","path":"objects/obj_par_entities/obj_par_entities.yy",},"propertyId":{"name":"def_atk","path":"objects/obj_par_entities/obj_par_entities.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"5",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_par_entities","path":"objects/obj_par_entities/obj_par_entities.yy",},"propertyId":{"name":"def_max_hp","path":"objects/obj_par_entities/obj_par_entities.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"50",},
   ],
   "parent":{
     "name":"Base Monsters",

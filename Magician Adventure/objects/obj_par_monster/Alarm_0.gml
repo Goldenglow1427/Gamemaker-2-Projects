@@ -1,8 +1,6 @@
 /// @description Reaction on the beginning of a turn.
 // You can write your code in this editor
 
-current_turn += 1
-
 if ef_burn_active
 {
 	res += 20

@@ -36,6 +36,7 @@
     {"$GMObjectProperty":"v1","%Name":"def_max_hp","filters":[],"listItems":[],"multiselect":false,"name":"def_max_hp","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"150","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"def_atk","filters":[],"listItems":[],"multiselect":false,"name":"def_atk","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"def_res","filters":[],"listItems":[],"multiselect":false,"name":"def_res","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"def_taunt","filters":[],"listItems":[],"multiselect":false,"name":"def_taunt","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

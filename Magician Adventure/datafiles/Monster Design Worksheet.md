@@ -161,7 +161,7 @@ Summons: each summon has some unique abilities. Ability costs mana to cast;
 
 > Defend summons attract opponent's attention, and protect allied units.
 
-- 卫兵之魂
+- 卫兵之魂（Soul of a Sentinel）
 
   HP: 30	ATK: 10	RES: 20	TAUNT: 0~3	RARE: 1
 

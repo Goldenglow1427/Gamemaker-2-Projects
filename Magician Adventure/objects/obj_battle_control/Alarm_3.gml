@@ -4,3 +4,5 @@
 // show_debug_message(self.current_round);
 
 self.current_round++;
+
+self.alarm[4] = 10;

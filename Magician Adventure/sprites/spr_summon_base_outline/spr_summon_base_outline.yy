@@ -1,10 +1,10 @@
 {
   "$GMSprite":"",
   "%Name":"spr_summon_base_outline",
-  "bboxMode":0,
+  "bboxMode":2,
   "bbox_bottom":194,
   "bbox_left":0,
-  "bbox_right":119,
+  "bbox_right":90,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,

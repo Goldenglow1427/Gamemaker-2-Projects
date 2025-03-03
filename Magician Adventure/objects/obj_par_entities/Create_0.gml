@@ -10,6 +10,7 @@ selected = false
 hp = def_max_hp
 atk = def_atk
 res = def_res
+taunt = def_taunt
 
 // List of effects.
 ef_dot = []

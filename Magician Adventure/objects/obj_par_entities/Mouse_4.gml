@@ -1,6 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+if obj_battle_control.on_player_turn == false
+	return
+
 if selected
 {
 	selected = false

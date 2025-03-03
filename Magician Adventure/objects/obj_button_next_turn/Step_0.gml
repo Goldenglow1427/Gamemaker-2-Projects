@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if obj_button_confirm_cast.is_active
+if obj_button_confirm_cast.is_active or obj_battle_control.on_player_turn == false
 	is_active = false
 else
 	is_active = true

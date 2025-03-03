@@ -35,6 +35,7 @@ global.start_battle = function(list_of_summon, list_of_enemy, list_of_config, li
 {	
 	// room_goto(rm_main_battle_page)
 	var ret_list_of_enemy = []
+	var ret_list_of_summon = []
 	
 	if array_length(list_of_config) > 5 or array_length(list_of_enemy) > 5
 	{
@@ -44,13 +45,15 @@ global.start_battle = function(list_of_summon, list_of_enemy, list_of_config, li
 	obj_battle_control.enemy_count = array_length(list_of_enemy)
 	for(var i=0; i<obj_battle_control.enemy_count; i++)
 	{
-		array_insert(ret_list_of_enemy, 0, instance_create_layer(640-75*(obj_battle_control.enemy_count-1)+i*150, 228, "Opponents", list_of_enemy[i]));
+		array_insert(ret_list_of_enemy, 0,
+			instance_create_layer(640-75*(obj_battle_control.enemy_count-1)+i*150, 228, "Opponents", list_of_enemy[i]));
 	}
 	
 	obj_battle_control.summon_count = array_length(list_of_summon)
 	for(var i=0; i<obj_battle_control.summon_count; i++)
 	{
-		instance_create_layer(640-75*(obj_battle_control.summon_count-1)+i*150, 600, "Opponents", list_of_summon[i]);
+		array_insert(ret_list_of_summon, 0,
+			instance_create_layer(640-75*(obj_battle_control.summon_count-1)+i*150, 600, "Opponents", list_of_summon[i]));
 	}
 	
 	for(var i=0; i<5; i++)
@@ -68,7 +71,7 @@ global.start_battle = function(list_of_summon, list_of_enemy, list_of_config, li
 			instance_create_layer(800+96*i, 640, "Buttons", list_of_effect[i]);
 	}
 	
-	return ret_list_of_enemy;
+	return [ret_list_of_enemy, ret_list_of_summon];
 }
 
 room_goto(rm_map_level_1)

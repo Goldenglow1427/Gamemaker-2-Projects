@@ -6,6 +6,8 @@ max_hp = 70;
 shards = 6;
 experience = 0;
 
+taunt = def_taunt
+
 combat_mana = 5;
 combat_max_mana = 5;
 

@@ -39,3 +39,27 @@ for(var i=0; i<array_length(def_list_of_skill_object); i++)
 	inst.parent_object = self.id;
 	array_push(list_of_abilities, inst);
 }
+
+// Take damage for a summon.
+f_take_damage = function(dmg)
+{
+	var val = dmg.amount;
+
+	if dmg.type != global.param_damage_true
+	{
+		if self.ef_shield != 0
+		{
+			self.ef_shield--;
+			return;
+		}
+	}
+	
+	if dmg.type == global.param_damage_art
+		val *= (1-clamp(self.res, 0, 95)/100);
+	if dmg.type != global.param_damage_true
+		val *= (1-self.f_find_protection()/100);
+		
+	val *= (1+self.f_find_vulnerability()/100);
+	
+	self.hp -= ceil(val);
+}

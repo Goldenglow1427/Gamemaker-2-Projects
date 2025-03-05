@@ -13,7 +13,7 @@ self.f_use_auto = function()
 	
 	self.com_activate_effect = function()
 	{
-		obj_char_player.f_take_damage({
+		obj_battle_control.f_find_enemy_target().f_take_damage({
 			type: global.param_damage_phy,
 			amount: self.atk
 		})

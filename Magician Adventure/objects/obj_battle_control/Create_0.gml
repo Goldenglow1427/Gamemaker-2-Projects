@@ -33,3 +33,32 @@ com_current_actor = pointer_null
 com_actions_sorted = false
 
 self.alarm[4] = 10;
+
+f_list_friendly_target = list_enemy
+f_list_enemy_target = list_summon
+array_push(f_list_enemy_target, instance_find(obj_char_player, 0));
+
+f_find_enemy_target = function()
+{
+	array_sort(f_list_enemy_target, function(ins1, ins2)
+	{
+		if ins1.taunt < ins2.taunt
+			return true;
+		else
+			return false;
+	})
+	
+	return f_list_enemy_target[0];
+}
+f_find_friendly_target = function()
+{
+	array_sort(f_list_friendly_target, function(ins1, ins2)
+	{
+		if ins1.taunt > ins2.taunt
+			return true;
+		else
+			return false;
+	})
+	
+	return f_list_friendly_target[0];
+}

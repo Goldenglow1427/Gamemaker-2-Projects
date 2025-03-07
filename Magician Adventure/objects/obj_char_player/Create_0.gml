@@ -68,3 +68,17 @@ f_take_damage = function(dmg)
 	
 	self.hp -= ceil(val);
 }
+f_take_necrosis_damage = function(value)
+{
+	if self.ef_necrosis_active
+		return;
+		
+	self.ef_necrosis_dmg += value;
+}
+f_take_burn_damage = function(value)
+{
+	if self.ef_burn_active
+		return;
+		
+	self.ef_burn_dmg += value;
+}

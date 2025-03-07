@@ -4,6 +4,8 @@
 level = 1;
 stage_name = def_stage_name;
 
+traversed = false;
+
 type = global.param_node_void;
 
 // If is battle.

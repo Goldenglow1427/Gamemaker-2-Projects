@@ -98,10 +98,13 @@ f_generate_stage_map = function(list_of_levels)
 	
 	self.alarm[0] = 2;
 }
-f_attempt_to_move = function(next_id)
+f_attempt_to_move = function(next_dep, next_id)
 {
 	show_debug_message(stable_connections);
 	show_debug_message({dep: cur_depth, from: cur_id, to: next_id});
+	
+	if next_dep != cur_depth + 1
+		return false;
 	
 	if cur_depth == -1
 	{
@@ -117,6 +120,29 @@ f_attempt_to_move = function(next_id)
 		{
 			cur_depth++;
 			cur_id = next_id;
+			return true;
+		}
+	}
+	
+	return false;
+}
+f_check_valid_move = function(next_dep, next_id)
+{
+	// show_debug_message(stable_connections);
+	// show_debug_message({dep: cur_depth, from: cur_id, to: next_id});
+	
+	if next_dep != cur_depth + 1
+		return false;
+	
+	if cur_depth == -1
+	{	
+		return true;
+	}
+	
+	for(var i=0; i<array_length(stable_connections); i++)
+	{
+		if stable_connections[i].dep == cur_depth && stable_connections[i].from == cur_id && stable_connections[i].to = next_id
+		{
 			return true;
 		}
 	}

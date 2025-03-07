@@ -8,8 +8,8 @@
   "name":"obj_char_player",
   "overriddenProperties":[],
   "parent":{
-    "name":"Battle Interfaces",
-    "path":"folders/Objects/Battle Interfaces.yy",
+    "name":"Character Information",
+    "path":"folders/Objects/Character Information.yy",
   },
   "parentObjectId":null,
   "persistent":true,
@@ -26,7 +26,7 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"def_taunt","filters":[],"listItems":[],"multiselect":false,"name":"def_taunt","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"-1000","varType":1,},
+    {"$GMObjectProperty":"v1","%Name":"def_taunt","filters":[],"listItems":[],"multiselect":false,"name":"def_taunt","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":1,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

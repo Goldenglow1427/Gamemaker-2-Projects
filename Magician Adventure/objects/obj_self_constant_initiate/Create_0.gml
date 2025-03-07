@@ -19,6 +19,17 @@ else
 		+ current_year * 5678);
 }
 
+global.set_draw_center = function()
+{
+	draw_set_halign(fa_center)
+	draw_set_valign(fa_middle)
+}
+global.set_draw_left = function()
+{
+	draw_set_halign(fa_left)
+	draw_set_valign(fa_top)
+}
+
 global.private_list_of_enemy = []
 global.private_list_of_config = []
 global.private_list_of_effect = []
@@ -100,7 +111,11 @@ global.param_battle_type_boss = 3;
 global.param_battle_type_bonus = 4;
 global.param_battle_type_void = -1;
 
+global.param_motion_down = 2;
+global.param_motion_up = 3;
+
 global.collection_regular_battles = [
+	// The Guards
 	{
 		level: 1,
 		name: "The Guards",
@@ -112,6 +127,7 @@ global.collection_regular_battles = [
 		],
 		env: function(){}
 	},
+	// E: The Guards
 	{
 		level: 1,
 		name: "E The Guards",
@@ -122,6 +138,32 @@ global.collection_regular_battles = [
 			obj_mon_automatic_doll,
 			obj_mon_automatic_doll,
 			obj_mon_shielded_guard
+		],
+		env: function(){}
+	},
+	// Abandoned Street (sk)
+	{
+		level: 1,
+		name: "Abandoned Street",
+		diff: global.param_battle_type_regular,
+		enemy: [
+			obj_mon_castle_mouse,
+			obj_mon_castle_mouse,
+			obj_mon_necro_skeleton,
+			obj_mon_castle_mouse
+		],
+		env: function(){}
+	},
+	// Abandoned Street (ar)
+	{
+		level: 1,
+		name: "Abandoned Street",
+		diff: global.param_battle_type_regular,
+		enemy: [
+			obj_mon_castle_mouse,
+			obj_mon_castle_mouse,
+			obj_mon_necro_archer,
+			obj_mon_castle_mouse
 		],
 		env: function(){}
 	}

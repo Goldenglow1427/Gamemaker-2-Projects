@@ -1,4 +1,5 @@
 
+self.traversed = true;
 
 room_goto(rm_main_battle_page)
 global.record_battle_data(

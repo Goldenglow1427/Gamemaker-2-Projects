@@ -295,7 +295,7 @@ Summons: each summon has some unique abilities. Ability costs mana to cast;
 
   Talent 1 - Begins with `1 shield`;
 
-- 自动人偶
+- 自动人偶（Automatic Doll）
 
   > Some robot structures left in the castle. You are amazed to see that some of them are still working.
 
@@ -305,25 +305,26 @@ Summons: each summon has some unique abilities. Ability costs mana to cast;
 
   Talent 1 - Auto change to charged attack since `Round 4`;
 
-- 见习法师
+- 见习法师（Novice Wizard）
 
   > New trained wizards in the castle.
 
   Auto - Deals 4 magic damage;
 
-  Skill - Deals 3 splash damage / applies 50% fragile for 1 turn / applies 2 burn damage;
+  Skill - Deals 4 splash damage / applies 50% fragile for 1 turn / applies 2 burn damage; (2-auto)
 
-- 地堡老鼠
+  - 地堡老鼠（Castle Mouse）
+
 
   > Mice in the base.
 
   Auto - Deals 1 damage;
 
-- 凋败骷髅
+- 凋败骷髅（Necro Skeleton）
 
   Auto - Deals 5 damage & 2 `necrosis-dmg`;
 
-- 亡灵射手
+- 亡灵射手（Necro Archer）
 
   Auto - Deals 7 damage & 2 `necrosis-dmg`;
 

@@ -14,6 +14,6 @@ global.record_battle_data(
 
 if dep == obj_map_control.cur_depth + 1
 {
-	if obj_map_control.f_attempt_to_move(order)
+	if obj_map_control.f_attempt_to_move(self.dep, self.order)
 		self.alarm[0] = 1;
 }

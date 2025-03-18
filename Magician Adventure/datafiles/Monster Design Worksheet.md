@@ -137,7 +137,43 @@ Summons: each summon has some unique abilities. Ability costs mana to cast;
 
 > Combat summons help with battle through various damaging skills.
 
-- 时空行客之魂
+- 剑客之魂
+
+  RARE: 1
+
+- 荒地枪手之魂
+
+  RARE: 1
+
+- 烈焰法师之魂
+
+  RARE: 1
+
+- 侵蚀法师之魂
+
+  RARE: 1
+
+- 狂战士之魂【烧血输出】
+
+  RARE: 2
+
+- 唤风法师之魂【群控+AOE】
+
+  RARE: 2
+
+- 烈焰枪手之魂【物理+elemental】
+
+  RARE: 2
+
+- 唤雷剑手之魂【法伤DPS】
+
+  RARE: 2
+
+- 暗潮龙侯之魂【法伤, AOE, debuff】
+
+- 时空行客之魂【Control, true DMG】
+
+  
 
 - 暗界镇灵之魂【Elemental】
 
@@ -155,7 +191,7 @@ Summons: each summon has some unique abilities. Ability costs mana to cast;
 
 > Support summons buff the allies and de-buff the enemies to better secure victory.
 
-
+- 空境亡灵之魂
 
 ### D3: Defend Summons
 

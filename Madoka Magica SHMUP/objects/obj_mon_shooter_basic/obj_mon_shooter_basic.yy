@@ -1,21 +1,23 @@
 {
   "$GMObject":"",
-  "%Name":"obj_mons_shooter_basic",
+  "%Name":"obj_mon_shooter_basic",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":2,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":3,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":5,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_char_ent_player","path":"objects/obj_char_ent_player/obj_char_ent_player.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_mons_shooter_basic",
+  "name":"obj_mon_shooter_basic",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_par_monster","path":"objects/obj_par_monster/obj_par_monster.yy",},"propertyId":{"name":"par_max_hitpoint","path":"objects/obj_par_monster/obj_par_monster.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"10",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_par_monster","path":"objects/obj_par_monster/obj_par_monster.yy",},"propertyId":{"name":"par_damage_on_collision","path":"objects/obj_par_monster/obj_par_monster.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_par_monster","path":"objects/obj_par_monster/obj_par_monster.yy",},"propertyId":{"name":"par_grief_seed_chance","path":"objects/obj_par_monster/obj_par_monster.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"10",},
   ],
   "parent":{
-    "name":"Shooting Monsters",
-    "path":"folders/Objects/Monsters & Bosses/Shooting Monsters.yy",
+    "name":"Base Monsters",
+    "path":"folders/Objects/Monsters & Bosses/Base Monsters.yy",
   },
   "parentObjectId":{
     "name":"obj_par_monster",

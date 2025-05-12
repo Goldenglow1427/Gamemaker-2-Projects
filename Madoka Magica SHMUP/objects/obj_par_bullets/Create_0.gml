@@ -1,4 +1,4 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-global.char_list = [global.char_index.madoka, global.char_index.sayaka];
+def_speed = default_speed * global.default_values.bullet_speed

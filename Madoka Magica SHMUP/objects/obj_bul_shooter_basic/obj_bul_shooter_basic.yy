@@ -1,13 +1,11 @@
 {
   "$GMObject":"",
   "%Name":"obj_bul_shooter_basic",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "eventList":[],
   "managed":true,
   "name":"obj_bul_shooter_basic",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_par_bullets","path":"objects/obj_par_bullets/obj_par_bullets.yy",},"propertyId":{"name":"default_speed","path":"objects/obj_par_bullets/obj_par_bullets.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"5",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_par_bullets","path":"objects/obj_par_bullets/obj_par_bullets.yy",},"propertyId":{"name":"default_speed","path":"objects/obj_par_bullets/obj_par_bullets.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1.0",},
   ],
   "parent":{
     "name":"Shooting Monsters",

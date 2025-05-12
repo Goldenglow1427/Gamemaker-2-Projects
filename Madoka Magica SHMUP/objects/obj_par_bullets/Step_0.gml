@@ -4,4 +4,4 @@
 if global.glob_time_stop
 	speed = 0;
 else
-	speed = default_speed;
+	speed = def_speed;

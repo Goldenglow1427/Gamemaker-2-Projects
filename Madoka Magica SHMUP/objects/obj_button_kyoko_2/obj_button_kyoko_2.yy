@@ -5,9 +5,9 @@
   "managed":true,
   "name":"obj_button_kyoko_2",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_par_character_select","path":"objects/obj_par_character_select/obj_par_character_select.yy",},"propertyId":{"name":"par_character","path":"objects/obj_par_character_select/obj_par_character_select.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"global.char_kyoko",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_par_character_select","path":"objects/obj_par_character_select/obj_par_character_select.yy",},"propertyId":{"name":"par_character","path":"objects/obj_par_character_select/obj_par_character_select.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"global.char_index.kyoko",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_par_character_select","path":"objects/obj_par_character_select/obj_par_character_select.yy",},"propertyId":{"name":"par_keybinding","path":"objects/obj_par_character_select/obj_par_character_select.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"2",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_par_character_select","path":"objects/obj_par_character_select/obj_par_character_select.yy",},"propertyId":{"name":"color_on_selection","path":"objects/obj_par_character_select/obj_par_character_select.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"global.color_kyoko",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_par_character_select","path":"objects/obj_par_character_select/obj_par_character_select.yy",},"propertyId":{"name":"color_on_selection","path":"objects/obj_par_character_select/obj_par_character_select.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"global.color.kyoko",},
   ],
   "parent":{
     "name":"Character Selection Button",

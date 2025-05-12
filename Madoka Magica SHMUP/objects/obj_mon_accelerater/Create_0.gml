@@ -4,6 +4,6 @@
 // Inherit the parent event
 event_inherited();
 
-image_angle = obj_char_ent_player.melee_attack_dir;
+acceleration = 0.1
 
-alarm[0] = 2;
+total_speed_gain = 0

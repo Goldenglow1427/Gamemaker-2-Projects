@@ -1,14 +1,35 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-// Variables
+global.char_index = {
+	homura: 1,
+	kyoko: 4,
+	madoka: 0,
+	mami: 2,
+	sayaka: 3
+}
 
-global.color_homura = #6C5B6F;
-global.color_kyoko = #B15F6E;
-global.color_madoka = #FF8392;
-global.color_mami = #FBD16C;
-global.color_sayaka = #8AB8F0;
+global.color = {
+	homura: #6C5B6F,
+	kyoko: #B15F6E,
+	madoka: #FF8392,
+	mami: #FBD16C,
+	sayaka: #8AB8F0
+}
 
+global.default_values = {
+	bullet_speed: 30
+}
+
+// Param for game generation logic.
+global.game_param = {
+}
+
+global.stats_game = {
+}
+
+global.stats_player = {
+}
 
 global.var_char_count_basic_monster = 0;
 global.var_char_count_large_monster = 0;
@@ -18,14 +39,9 @@ global.var_char_count_boost_monster = 0;
 
 
 
+
 // Debug settings.
 global.toggle_show_debug_msg = true;
-
-global.char_madoka = 0; // Keybinding: 1
-global.char_homura = 1; // Keybinding: 2
-global.char_mami = 2; // Keybinding: 3
-global.char_sayaka = 3; // Keybinding: 4
-global.char_kyoko = 4;
 
 
 global.action_idle = 0;
@@ -64,7 +80,7 @@ global.param_shooter_gen_chance = [
 	[10, 10]	// 240-300 second.
 ];
 global.param_shooter_gen_type = [
-	obj_mons_shooter_basic
+	obj_mon_shooter_basic
 ];
 
 global.param_inspirer_gen_type_count = 1;

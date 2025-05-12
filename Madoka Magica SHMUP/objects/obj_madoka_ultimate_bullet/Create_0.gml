@@ -1,6 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+event_inherited()
+
 // Set the angle of the arrow.
 
 var _rnd = irandom(instance_number(obj_par_monster)-1);

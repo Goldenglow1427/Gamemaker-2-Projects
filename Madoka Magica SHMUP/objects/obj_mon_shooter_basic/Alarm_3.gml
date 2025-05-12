@@ -4,6 +4,9 @@
 // Inherit the parent event
 event_inherited();
 
-image_angle = obj_char_ent_player.melee_attack_dir;
+if aiming
+{
+	instance_destroy(aim_line)
+}
 
-alarm[0] = 2;
+global.var_char_count_range_monster++;

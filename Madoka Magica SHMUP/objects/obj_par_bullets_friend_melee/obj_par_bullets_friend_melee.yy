@@ -6,7 +6,9 @@
   ],
   "managed":true,
   "name":"obj_par_bullets_friend_melee",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_par_bullets","path":"objects/obj_par_bullets/obj_par_bullets.yy",},"propertyId":{"name":"default_speed","path":"objects/obj_par_bullets/obj_par_bullets.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0",},
+  ],
   "parent":{
     "name":"Weapon & Bullets",
     "path":"folders/Objects/Weapon & Bullets.yy",

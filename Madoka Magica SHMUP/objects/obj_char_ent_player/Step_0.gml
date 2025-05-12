@@ -59,7 +59,7 @@ if _dir != past_dir && _speed != 0
 
 
 // Change sprites based on the motions.
-if character == global.char_madoka
+if character == global.char_index.madoka
 {
 	if action == global.action_idle
 	{
@@ -199,7 +199,7 @@ if character == global.char_madoka
 		}
 	}
 }
-else if character == global.char_sayaka
+else if character == global.char_index.sayaka
 {
 	if action == global.action_idle
 	{
@@ -300,7 +300,7 @@ else if character == global.char_sayaka
 		}
 	}
 }
-else if character == global.char_kyoko
+else if character == global.char_index.kyoko
 {
 	if action == global.action_idle
 	{
@@ -412,7 +412,7 @@ else if character == global.char_kyoko
 
 
 // Deal with action.
-if character == global.char_madoka
+if character == global.char_index.madoka
 {
 	if mouse_check_button_pressed(mb_left)
 	{
@@ -504,7 +504,7 @@ if character == global.char_madoka
 		}
 	}
 }
-else if character == global.char_sayaka
+else if character == global.char_index.sayaka
 {
 	if mouse_check_button_pressed(mb_left)
 	{
@@ -596,7 +596,7 @@ else if character == global.char_sayaka
 		}
 	}
 }
-else if character == global.char_kyoko
+else if character == global.char_index.kyoko
 {
 	if mouse_check_button_pressed(mb_left)
 	{

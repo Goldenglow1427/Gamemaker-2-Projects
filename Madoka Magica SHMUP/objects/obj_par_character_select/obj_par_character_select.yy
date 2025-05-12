@@ -29,9 +29,9 @@
   "physicsStartAwake":true,
   "properties":[
     {"$GMObjectProperty":"v1","%Name":"button_text","filters":[],"listItems":[],"multiselect":false,"name":"button_text","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"Undefined","varType":2,},
-    {"$GMObjectProperty":"v1","%Name":"color_on_selection","filters":[],"listItems":[],"multiselect":false,"name":"color_on_selection","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"global.color_madoka","varType":4,},
+    {"$GMObjectProperty":"v1","%Name":"color_on_selection","filters":[],"listItems":[],"multiselect":false,"name":"color_on_selection","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"global.color.madoka","varType":4,},
     {"$GMObjectProperty":"v1","%Name":"color_default","filters":[],"listItems":[],"multiselect":false,"name":"color_default","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"$FFFFFFFF","varType":7,},
-    {"$GMObjectProperty":"v1","%Name":"par_character","filters":[],"listItems":[],"multiselect":false,"name":"par_character","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"global.char_madoka","varType":4,},
+    {"$GMObjectProperty":"v1","%Name":"par_character","filters":[],"listItems":[],"multiselect":false,"name":"par_character","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"global.char_index.madoka","varType":4,},
     {"$GMObjectProperty":"v1","%Name":"par_keybinding","filters":[],"listItems":[],"multiselect":false,"name":"par_keybinding","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":1,},
   ],
   "resourceType":"GMObject",

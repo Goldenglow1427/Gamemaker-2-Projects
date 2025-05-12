@@ -1,20 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_basic_monster",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":3,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_mon_sup_aim_line",
+  "eventList":[],
   "managed":true,
-  "name":"obj_basic_monster",
+  "name":"obj_mon_sup_aim_line",
   "overriddenProperties":[],
   "parent":{
     "name":"Base Monsters",
     "path":"folders/Objects/Monsters & Bosses/Base Monsters.yy",
   },
-  "parentObjectId":{
-    "name":"obj_par_monster",
-    "path":"objects/obj_par_monster/obj_par_monster.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -33,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_basic_monster",
-    "path":"sprites/spr_basic_monster/spr_basic_monster.yy",
+    "name":"spr_mon_sup_aim_line",
+    "path":"sprites/spr_mon_sup_aim_line/spr_mon_sup_aim_line.yy",
   },
   "spriteMaskId":null,
   "visible":true,
